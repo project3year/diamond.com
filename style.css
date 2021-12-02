@@ -1,0 +1,133 @@
+/* Making Background image responsive */
+.back-img{
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    border-radius: 0px;
+}
+.border{
+    border-bottom: 4px solid !important;
+}
+.body{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.nav-item,.navbar-brand{
+    font-size: 24px;
+}
+.btn:hover{
+    color: white !important;
+}
+.margin{
+    margin-left: 30px;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.navbar{
+    transition:all .7s;
+}
+#arrow{
+    position: relative;
+}
+#card1{
+    position: relative;
+}
+#card2{
+    position: relative;
+}
+#card3{
+    position: relative;
+}
+#card4{
+    position: relative;
+}
+#card5{
+    position: relative;
+}
+#card6{
+    position: relative;
+}
+#card7{
+    position: relative;
+}
+#card8{
+    position: relative;
+}
+#card9{
+    position: relative;
+}
+#card10{
+    position: relative;
+}
+#card11{
+    position: relative;
+}
+#card12{
+    position: relative;
+}
+#card13{
+    position: relative;
+}
+.bg-lightgrey{
+    background-color: #8d8d8d;
+}
+.bg{
+    background-color: rgb(54, 53, 53);
+}
+.he{
+    height: 700px;
+}
+.font{
+    font-family: "Audiowide", sans-serif;
+}
+.margin-top1{
+    margin-top: 180px;
+}
+#fo{
+    color:gray;
+}
+#fo:hover{
+    text-decoration: none;
+}
+/* ======================= */
+.img { 
+	transition: all .4s ease-in-out; 
+}
+.img:hover { 
+    overflow: hidden;
+    	transform: scaleX(1.5); 
+    }
+    /* ================== */
+.img1{
+    background-image: url(img/16.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img2{
+    background-image: url(img/b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img3{
+    background-image: url(img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Image Fade  */
+.ihv{
+    opacity: 0;
+    transition-duration: 1.25s;
+}
+.ihv:hover{
+    opacity: 1;
+}
+/* Small to Medium devices */
+@media (max-width: 991.98px){
+    .font{
+        font-size: 24px;
+    }
+    .heading{
+        font-size: 24px;
+    }
+}
